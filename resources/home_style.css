@@ -1,0 +1,32 @@
+:root {
+    --bg: #f5dfcb;
+    --primary: #653c73;
+    --secondary: #4a3621;
+}
+
+body {
+    background-color: var(--bg);
+    padding: 0.5rem 1rem;
+    font-size: 1.1em;
+}
+h1, h2, h3 {
+    color: var(--primary);
+}
+a {
+    color: var(--secondary);
+    font-weight: bold;
+}
+a:hover {
+    color: var(--primary);
+}
+table {
+    border-collapse: collapse;
+    margin: 1rem;
+}
+td, th {
+    border: 2px solid var(--secondary);
+    padding: 0.7rem;
+}
+h1 {
+    text-align: center;
+}
